@@ -51,7 +51,7 @@ Users should be able to:
 ## Author
 
 - Website - [Michael Demeke](https://michael-demeke.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Mikdem)
+- Frontend Mentor - [@Mikdem](https://www.frontendmentor.io/profile/Mikdem)
 
 
 
