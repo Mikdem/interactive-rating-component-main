@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <base href="/">
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-veryDarkBlue font-sans text-base flex flex-col items-center justify-center h-screen text-white">
+  <div class="card bg-gradient-to-b from-from-50 to-to-50 flex flex-col justify-center py-7 px-7 rounded-3xl sm:w-96">
+    <img class="bg-darkBlue p-3 rounded-full w-10 h-10" src="./images/icon-star.svg" alt="star icon" />
+    <h1 class="mt-8 font-bold text-3xl">How did we do?</h1>
+    <p class="mt-2 text-lightGrey text-sm">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+    </p>
+    <ul class="flex justify-between mt-6">
+        <li><button class="btn bg-darkBlue text-lightGrey w-12 h-12 rounded-full flex justify-center items-center hover:bg-orange hover:text-white focus:bg-lightGrey focus:text-white transition duration-300 active:bg-orange">1</button></li>
+        <li><button class="btn bg-darkBlue text-lightGrey w-12 h-12 rounded-full flex justify-center items-center hover:bg-orange hover:text-white focus:bg-lightGrey focus:text-white transition duration-300 active:bg-orange">2</button></li>
+        <li><button class="btn bg-darkBlue text-lightGrey w-12 h-12 rounded-full flex justify-center items-center hover:bg-orange hover:text-white focus:bg-lightGrey focus:text-white transition duration-300active:bg-orange">3</button></li>
+        <li><button class="btn bg-darkBlue text-lightGrey w-12 h-12 rounded-full flex justify-center items-center hover:bg-orange hover:text-white focus:bg-lightGrey focus:text-white transition duration-300active:bg-orange">4</button></li>
+        <li><button class="btn bg-darkBlue text-lightGrey w-12 h-12 rounded-full flex justify-center items-center hover:bg-orange hover:text-white focus:bg-lightGrey focus:text-white transition duration-300 active:bg-orange">5</button></li>
+    </ul>
+    <button class="submit mt-7 mb-2 bg-orange rounded-full py-3 uppercase font-sans tracking-widest  hover:bg-white hover:text-orange text-bold transition duration-300" type="submit" id="#submit">Submit</button>
+</div>
+<div class="thankyou hidden bg-gradient-to-b from-from-50 to-to-50 flex-col justify-center p-6 rounded-2xl sm:w-96 items-center text-center">
+  <div class="flex w-full bg-blue-400 justify-center items-center">
+    <img class="w-28" src="./images/illustration-thank-you.svg" alt="thanku">
+  </div>
+    <p class="text-orange bg-darkBlue text-sm px-4 py-1 rounded-full mt-6 mb-0">You selected <span id="rating"></span> out of 5</p>
+    <h1 class="mt-8 mb-0 font-bold text-2xl">Thank you!</h1>
+    <p class="mt-0 text-lightGrey p-4">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Michael Demeke</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
