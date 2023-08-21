@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/Mikdem/interactive-rating-component-main.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live URL](https://interactive-rating-component-mikdem.netlify.app/)
 
 ## My process
 
